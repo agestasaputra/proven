@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<!-- FOR RESPONSIVE LAYOUT -->
+	<meta name="viewport" content="width=device-width">
+
+	 <!-- FAVICON -->
+    <link rel="icon" href="Assets/logo-proven.webp" type="image/x-icon">
+
+	<title>PT Proven Utama Indonesia</title>
+	
+	<!-- GOOGLE FONT REPOSITORY -->
+	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+	<!-- GOOGLE ICON REPOSITORY -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- BANNER -->
+	<div class="container-banner">
+		<img src="Assets/Banner-Top.jpg" alt="">
+	</div>
+
+	<div class="container-navbar">
+		<ul>
+			<li><a href="">Brand</a></li>
+			<li><a href="">Free Shipping Indonesia</a></li>
+			<li><a href="">E-Apotek</a></li>
+			<li><a href="">Perfume & Deodorant</a></li>
+			<li><a href="">Bath & Body Care</a></li>
+		</ul>		
+	</div> 
+	
+	<!-- BURGER MENU -->
+	<div class="container-burger-menu">
+		<div class="burger-menu" onclick="openSideNav()">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</div>
+	</div>
+	
+
+	<!-- SIDENAV -->
+	<div class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">&times;</a>
+	  	<a href="#">Brand</a>
+	  	<a href="#">Free Shipping Indonesia</a>
+	  	<a href="#">E-Apotek</a>
+	  	<a href="#">Perfume & Deodorant</a>
+	  	<a href="#">Bath & Body Care</a>
+	</div>
+	
+	<!-- <div class="container-navbar2">
+		<div>
+			<a href="">Brand</a>
+		</div>
+		<div>
+			<a href="">Free Shipping Indonesia</a>
+		</div>
+		<div>
+			<a href="">E-Apotek</a>
+		</div>
+		<div>
+			<a href="">Perfume & Deodorant</a>
+		</div>
+		<div>
+			<a href="">Bath & Body Care</a>
+		</div>		
+	</div> -->
+
+
+
+
+	<!-- SLIDER -->
+	<div class="container-slider">
+
+		<!-- Full-width images with number and caption text -->
+		<div class="slider fade">
+			<img src="Assets/slider.jpg" style="width:100%">
+			 
+		</div>
+
+		<div class="slider fade">
+			<!-- <img src="Assets/slider.jpg" style="width:100%"> -->
+			<!-- <div class="numbertext">2 / 3</div> -->
+			<img src="Assets/slider2.jpg" style="width:100%">
+		</div>
+
+		<div class="slider fade">
+			<!-- <img src="Assets/slider.jpg" style="width:100%"> -->
+			<img src="Assets/slider3.jpg" style="width:100%">
+			<!-- <div class="numbertext">3 / 3</div> -->
+			<!-- <img src="Assets/Banner-Top2.jpg" style="width:100%">  -->
+		</div>
+
+		<!-- Next and previous buttons -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	
+	<!-- Thumbnails Images -->
+	<div class="thumbnails-slider">
+	    <div class="thumbnail" onclick="currentSlide(1)">
+	    	<p>KOLEKSI BATIK PRIA</p>
+	    </div>
+	    <div class="thumbnail" onclick="currentSlide(2)">
+	    	<p>AKSESORIS & PERHIASAN</p>
+	    </div>
+	    <div class="thumbnail" onclick="currentSlide(3)">
+	    	<p>TV PINTAR</p> 
+	    </div>
+	</div>
+
+
+
+
+
+
+	<!-- PRODUCT -->
+	<div class="container-product">
+		<div class="section-top">
+			<div class="title-weekday active-product">
+				<p>WEEKDAY</p>
+			</div>
+			<div class="title-weekend">
+				<p>WEEKEND</p>
+			</div>
+		</div>
+	
+
+		<div class="section-bottom">
+
+			<!-- PRODUCT WEEKDAY 1 -->
+			<div id="product-weekday-1">
+				<div id="head-img">
+					<img src="Assets/watch.jpg" alt="">
+				</div>
+				
+				<div id="overlay-img">
+					<img src="Assets/overlay.png" alt="">
+				</div>
+
+				<div id="text-product">
+					<span id="title"><p>JAM TANGAN WANITA</p></span>
+					<span id="mid"><p>Rp. 1.500.000</p></span>
+					<span id="disc"><p>Rp. 92.100</p></span>			
+				</div>
+			</div>
+
+			<!-- PRODUCT WEEKDAY 2 -->
+			<div id="product-weekday-2">
+				<div id="head-img">
+					<img src="Assets/watch2.jpg" alt="">
+				</div>
+				
+				<div id="overlay-img">
+					<img src="Assets/overlay-tutup.png" alt="">
+				</div>
+
+				<div id="text-product">
+					<span id="title"><p>JAM TANGAN WANITA</p></span>
+					<span id="mid"><p>Rp. 1.500.000</p></span>
+					<span id="disc"><p>Rp. 92.100</p></span>			
+				</div>
+			</div>
+
+			<!-- PRODUCT WEEKEND 1 -->
+			<div id="product-weekend-1">
+				<div id="head-img">
+					<img src="Assets/belt.jpg" alt="">
+				</div>
+				
+				<!-- <div id="overlay-img">
+					<img src="Assets/overlay.png" alt="">
+				</div> -->
+
+				<div id="text-product">
+					<span id="title"><p>JAM TANGAN WANITA</p></span>
+					<span id="mid"><p>Rp. 1.500.000</p></span>
+					<span id="disc"><p>Rp. 92.100</p></span>			
+				</div>
+			</div>
+
+			<!-- PRODUCT WEEKEND 2 -->
+			<div id="product-weekend-2">
+				<div id="head-img">
+					<img src="Assets/belt2.jpg" alt="">
+				</div>
+				
+				<!-- <div id="overlay-img">
+					<img src="Assets/overlay.png" alt="">
+				</div> -->
+
+				<div id="text-product">
+					<span id="title"><p>JAM TANGAN WANITA</p></span>
+					<span id="mid"><p>Rp. 1.500.000</p></span>
+					<span id="disc"><p>Rp. 92.100</p></span>			
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- ==================== FOOTER ===================== -->
+	<div class="footer">
+
+		<div class="button-footer">
+			<div id="text-button">
+				<p>SYARAT & KETENTUAN</p>
+				<!-- <img src="Assets/arrow-bawah.png" alt=""> -->
+			</div>	<!-- 
+			<div class="col" id="dua">
+				<img src="Assets/arrow-bawah.png" alt="">
+			</div>		  -->
+		</div>
+
+		<div class="content-footer">
+			<div id="content-footer-kiri">
+				<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti culpa harum facere exercitationem, blanditiis nesciunt itaque doloribus quod perferendis architecto consectetur fuga nostrum dignissimos vitae impedit provident quibusdam, dolore atque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores magnam vitae labore eveniet ipsum odit iusto doloremque magni at mollitia. Fugit explicabo aut alias.
+				</p>
+			</div>
+			<div id="content-footer-kanan">
+				<button>KLIK DISINI!</button>
+			</div>
+			
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+</body>
+</html>
