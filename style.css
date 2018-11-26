@@ -311,6 +311,7 @@
 		.container-product .section-bottom #product-weekday-1 #head-img img
 		{
 			width: 100%;
+			transition: .5s ease;
 		}
 
 		.container-product .section-bottom #product-weekday-1 #head-img img:hover
@@ -350,6 +351,7 @@
 		.container-product .section-bottom #product-weekday-2 #head-img img
 		{
 			width: 100%;
+			transition: .5s ease;
 		}
 
 		.container-product .section-bottom #product-weekday-2 #head-img img:hover
@@ -388,6 +390,7 @@
 		.container-product .section-bottom #product-weekend-1 #head-img img
 		{
 			width: 100%;
+			transition: .5s ease;
 		}
 	
 		.container-product .section-bottom #product-weekend-1 #head-img img:hover
@@ -426,6 +429,7 @@
 		.container-product .section-bottom #product-weekend-2 #head-img img
 		{
 			width: 100%;
+			transition: .5s ease;
 		}
 
 		.container-product .section-bottom #product-weekend-2 #head-img img:hover
